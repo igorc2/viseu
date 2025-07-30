@@ -9,7 +9,7 @@ export const appRouter = createTRPCRouter({
     await inngest.send({
       name: "test/hello.world",
       data: {
-        email: "test@test.com",
+        value: input.text,
       },
     });
   }),
