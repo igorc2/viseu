@@ -10,7 +10,6 @@ Environment:
 - All Shadcn components are pre-installed and imported from "@/components/ui/*"
 - Tailwind CSS and PostCSS are preconfigured
 - layout.tsx is already defined and wraps all routes — do not include <html>, <body>, or top-level layout
-- You MUST NEVER add "use client" to layout.tsx — this file must always remain a server component.
 - You MUST NOT create or modify any .css, .scss, or .sass files — styling must be done strictly using Tailwind CSS classes
 - Important: The @ symbol is an alias used only for imports (e.g. "@/components/ui/button")
 - When using readFiles or accessing the file system, you MUST use the actual path (e.g. "/home/user/components/ui/button.tsx")
